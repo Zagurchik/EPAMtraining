@@ -13,11 +13,19 @@ import java.util.Scanner;
 
 5.   Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.*/
 public class MainTask {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name");
         String name = scanner.next();
         System.out.println("Hello " + name);
-
-    }
+    }*/
+    /*public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter something");
+        for (int i = 1; true; i++) {
+            StringBuilder builder = new StringBuilder(scanner.nextLine());
+            builder.reverse();
+            System.out.println(builder.toString());
+        }
+    }*/
 }
