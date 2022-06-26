@@ -1,6 +1,7 @@
 package com.company;
 
 
+import java.util.Random;
 import java.util.Scanner;
 
 /*1.     Приветствовать любого пользователя при вводе его имени через командную строку.
@@ -28,4 +29,12 @@ public class MainTask {
             System.out.println(builder.toString());
         }
     }*/
+    public static void main(String[] args) {
+        Random generator = new Random();
+        int[] array = new int[15];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = generator.nextInt(500);
+            System.out.print(array[i] + " ");
+        }
+    }
 }
