@@ -29,12 +29,25 @@ public class MainTask {
             System.out.println(builder.toString());
         }
     }*/
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         Random generator = new Random();
         int[] array = new int[15];
         for (int i = 0; i < array.length; i++) {
             array[i] = generator.nextInt(500);
             System.out.print(array[i] + " ");
         }
+    }*/
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the num");
+        int [] array = new int [3];
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            array [i] = scanner.nextInt();
+        }
+        for (int num : array) {
+            sum += num;
+        }
+        System.out.println(sum);
     }
 }
