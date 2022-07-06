@@ -1,4 +1,4 @@
-package com.company.Basics_of_software_code_development;
+package com.company.Basics_of_software_code_development.Linear_programs;
 
 public class Task3 {
     public static void main(String[] args) {
