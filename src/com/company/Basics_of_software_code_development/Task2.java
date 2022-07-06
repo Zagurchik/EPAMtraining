@@ -10,7 +10,6 @@ public class Task2 {
         double powB;
         double powBm;
         double powA;
-      //  System.out.println(result);
         powB = Math.pow(b,2);
         powBm = Math.pow(b,-2);
         sqrt = Math.sqrt(powB + 4*a*c);
