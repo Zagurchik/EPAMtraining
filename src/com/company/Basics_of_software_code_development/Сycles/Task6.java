@@ -1,6 +1,6 @@
 package com.company.Basics_of_software_code_development.Сycles;
 // Вывести на экран соответствий между символами и их численными обозначениями в памяти компьютера.
-public class Task5 {
+public class Task6 {
     public static void main(String[] args) {
                 System.out.print("ASCII символы и коды:\n № символ OCT  HEX\n");
                 for (int i = 33; i < 256; i++) {
